@@ -9,7 +9,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface CellAppDelegate : NSObject <NSApplicationDelegate>
+{
+    
+    NSArray *listData ;
+    IBOutlet NSTableView *BaseList;
 
-@property (assign) IBOutlet NSWindow *window;
-
+    IBOutlet NSWindow *window;
+}
 @end
